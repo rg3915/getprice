@@ -36,9 +36,9 @@
             {% if forloop.first %}
               <th>{{ item }}</th>
             {% else %}
-              <th class="text-center"></th>
-              <th class="text-center">{{ item }}</th>
-              <th class="text-center"></th>
+              <th class="tc"></th>
+              <th class="tc">{{ item }}</th>
+              <th class="tc"></th>
             {% endif %}
           {% endfor %}
         </tr>
@@ -47,9 +47,9 @@
             {% if forloop.first %}
               <th>   </th>
             {% else %}
-              <th class="text-center">Preço</th>
-              <th class="text-center">Quant.</th>
-              <th class="text-center" style="border-right: 1px dashed #333;">Total</th>
+              <th class="tc">Preço</th>
+              <th class="tc">Quant.</th>
+              <th class="tc dash">Total</th>
             {% endif %}
           {% endfor %}
         </tr>
@@ -67,13 +67,13 @@
             {% elif forloop.last %}
             {% else %}
               {% if item.3 == loja_mais_barata %}
-                <td class="text-center" style="border: 1px solid #f07746; background-color: #fbddd1;">{{ item.0 }}</td>
-                <td class="text-center" style="border: 1px solid #f07746; background-color: #fbddd1;">{{ item.1 }}</td>
-                <td class="text-center" style="border-right: 1px dashed #333; border: 1px solid #f07746; background-color: #fbddd1;">{{ item.2 }}</td>
+                <td class="tc minprice">{{ item.0 }}</td>
+                <td class="tc minprice">{{ item.1 }}</td>
+                <td class="tc minprice dash">{{ item.2 }}</td>
               {% else %}
-                <td class="text-center">{{ item.0 }}</td>
-                <td class="text-center">{{ item.1 }}</td>
-                <td class="text-center" style="border-right: 1px dashed #333;">{{ item.2 }}</td>
+                <td class="tc">{{ item.0 }}</td>
+                <td class="tc">{{ item.1 }}</td>
+                <td class="tc dash">{{ item.2 }}</td>
               {% endif %}
             {% endif %}
           {% endfor %}
@@ -84,9 +84,9 @@
             {% if forloop.first %}
               <th>   </th>
             {% else %}
-              <td class="text-center">Preço</td>
-              <td class="text-center">Quant.</td>
-              <td class="text-center" style="border-right: 1px dashed #333;">Total</td>
+              <td class="tc">Preço</td>
+              <td class="tc">Quant.</td>
+              <td class="tc dash">Total</td>
             {% endif %}
           {% endfor %}
         </tr>
@@ -95,9 +95,9 @@
             {% if forloop.first %}
               <th>{{ item }}</th>
             {% else %}
-              <th class="text-center"></th>
-              <th class="text-center">{{ item }}</th>
-              <th class="text-center"></th>
+              <th class="tc"></th>
+              <th class="tc">{{ item }}</th>
+              <th class="tc"></th>
             {% endif %}
           {% endfor %}
         </tr>

@@ -83,15 +83,15 @@
               <th>{{ item }}</th>
             {% else %}
               {% if bqt == 0 %}
-                <th class="text-center">{{ item }}</th>
+                <th class="tc">{{ item }}</th>
               {% endif %}
             {% endif %}
           {% endfor %}
           {% if bqt == 1 %}
-            <th class="text-center">+ Barato</th>
-            <th class="text-center">Quant.</th>
-            <th class="text-center">Total</th>
-            <th class="text-center">Loja</th>
+            <th class="tc">+ Barato</th>
+            <th class="tc">Quant.</th>
+            <th class="tc">Total</th>
+            <th class="tc">Loja</th>
           {% endif %}
         </tr>
       </thead>
@@ -106,28 +106,28 @@
               {% else %}
                 {% if mb == 1 %}
                   {% if mais_barato == item %}
-                    <td class="text-center" style="border: 1px solid #f07746; background-color: #fbddd1;">{{ item.0 }}</td>
+                    <td class="tc minprice">{{ item.0 }}</td>
                   {% else %}
-                    <td class="text-center">{{ item.0 }}</td>
+                    <td class="tc">{{ item.0 }}</td>
                   {% endif %}
                 {% elif smb == 1 %}
                   {% if mais_barato == item %}
-                    <td class="text-center">{{ item.0 }}</td>
+                    <td class="tc">{{ item.0 }}</td>
                   {% else %}
                     <td>   </td>
                   {% endif %}
                 {% elif bqt == 0 %}
-                  <td class="text-center">{{ item.0 }}</td>
+                  <td class="tc">{{ item.0 }}</td>
                 {% endif %}
               {% endif %}
             {% endif %}
           {% endfor %}
           {% if bqt == 1 %}
             <td>{{ mais_barato.4 }}</td>
-            <td class="text-center">{{ mais_barato.0 }}</td>
-            <td class="text-center">{{ mais_barato.1 }}</td>
-            <td class="text-center">{{ mais_barato.2 }}</td>
-            <td class="text-center">{{ mais_barato.3 }}</td>
+            <td class="tc">{{ mais_barato.0 }}</td>
+            <td class="tc">{{ mais_barato.1 }}</td>
+            <td class="tc">{{ mais_barato.2 }}</td>
+            <td class="tc">{{ mais_barato.3 }}</td>
           {% endif %}
         </tr>
       {% endfor %}

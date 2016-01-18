@@ -13,10 +13,10 @@
       <thead>
         <tr>
           <th>Produto</th>
-          <th class="text-center">Preço</th>
-          <th class="text-center">Quant.</th>
-          <th class="text-center">Total</th>
-          <th class="text-center">Loja</th>
+          <th class="tc">Preço</th>
+          <th class="tc">Quant.</th>
+          <th class="tc">Total</th>
+          <th class="tc">Loja</th>
         </tr>
       </thead>
       <tbody>
@@ -26,22 +26,22 @@
           {% elif linha.subtotal %}
             <tr class="info">
           {% else %}
-            <tr style="background-color: #337ab7">
+            <tr id="total">
           {% endif %}
             {% if linha.product__product %}
               <td>{{ linha.product__product }}</td>
-              <td class="text-center">{{ linha.price }}</td>
-              <td class="text-center">{{ linha.quantity }}</td>
-              <td class="text-center">{{ linha.total|floatformat:2 }}</td>
-              <td class="text-center">{{ linha.store__store }}</td>
+              <td class="tc">{{ linha.price }}</td>
+              <td class="tc">{{ linha.quantity }}</td>
+              <td class="tc">{{ linha.total|floatformat:2 }}</td>
+              <td class="tc">{{ linha.store__store }}</td>
             {% elif linha.subtotal %}
               <td></td><td></td><td></td>
-              <td class="subtotal text-center primary lead">R$ {{ linha.subtotal|floatformat:2 }}</td>
-              <td class="text-center">SUBTOTAL</td>
+              <td class="subtotal tc primary lead">R$ {{ linha.subtotal|floatformat:2 }}</td>
+              <td class="tc">SUBTOTAL</td>
             {% else %}
               <td></td><td></td><td></td>
-              <td class="total text-center lead" style="color: #fff;">R$ {{ linha.total|floatformat:2 }}</td>
-              <td class="text-center">TOTAL</td>
+              <td class="total tc lead" style="color: #fff;">R$ {{ linha.total|floatformat:2 }}</td>
+              <td class="tc">TOTAL</td>
             {% endif %}
           </tr>
         {% endfor %}

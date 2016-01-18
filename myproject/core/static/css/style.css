@@ -1,0 +1,13 @@
+.dash {
+    border-right: 1px dashed #333;
+}
+.minprice {
+    border: 1px solid #f07746;
+    background-color: #fbddd1;
+}
+.tc {
+    text-align: center;
+}
+#total {
+    background-color: #337ab7;
+}
