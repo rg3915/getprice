@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="container">
+
+  <div class="page-header">
+    <h2>Produtos mais baratos por supermercado</h2>
+  </div>
+
+  {% if linhas %}
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Produto</th>
+          <th class="text-center">Preço</th>
+          <th class="text-center">Quant.</th>
+          <th class="text-center">Total</th>
+          <th class="text-center">Loja</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for linha in linhas %}
+          {% if linha.product__product %}
+            <tr>
+          {% elif linha.subtotal %}
+            <tr class="info">
+          {% else %}
+            <tr style="background-color: #337ab7">
+          {% endif %}
+            {% if linha.product__product %}
+              <td>{{ linha.product__product }}</td>
+              <td class="text-center">{{ linha.price }}</td>
+              <td class="text-center">{{ linha.quantity }}</td>
+              <td class="text-center">{{ linha.total|floatformat:2 }}</td>
+              <td class="text-center">{{ linha.store__store }}</td>
+            {% elif linha.subtotal %}
+              <td></td><td></td><td></td>
+              <td class="subtotal text-center primary lead">R$ {{ linha.subtotal|floatformat:2 }}</td>
+              <td class="text-center">SUBTOTAL</td>
+            {% else %}
+              <td></td><td></td><td></td>
+              <td class="total text-center lead" style="color: #fff;">R$ {{ linha.total|floatformat:2 }}</td>
+              <td class="text-center">TOTAL</td>
+            {% endif %}
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  {% else %}
+    <p class="alert alert-warning">Sem itens na lista.</p>
+  {% endif %}
+</div>
+{% endblock content %}

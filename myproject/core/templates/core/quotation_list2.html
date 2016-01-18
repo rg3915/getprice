@@ -1,0 +1,110 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="container">
+
+  <div class="page-header">
+    <a id="quotation_add" class="btn btn-primary pull-right" href="{% url 'quotation_add' %}"><i class="glyphicon glyphicon-plus"></i> Adicionar</a>
+    <h2>Supermercado mais barato</h2>
+
+    <table class="table borderless">
+      <tbody>
+        <tr>
+          <th>
+            <i class="glyphicon glyphicon-ok"></i>
+            <a href="#">2 a 2</a>
+          </th>
+          <th>
+            <i class="glyphicon glyphicon-ok"></i>
+            <a href="#">3 a 3</a>
+          </th>
+          <th>
+            <i class="glyphicon glyphicon-ok"></i>
+            <a href="#">4 a 4</a>
+          </th>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  {% if linhas_mais_barato %}
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          {% for item in cabecalho %}
+            {% if forloop.first %}
+              <th>{{ item }}</th>
+            {% else %}
+              <th class="text-center"></th>
+              <th class="text-center">{{ item }}</th>
+              <th class="text-center"></th>
+            {% endif %}
+          {% endfor %}
+        </tr>
+        <tr>
+          {% for item in cabecalho %}
+            {% if forloop.first %}
+              <th>   </th>
+            {% else %}
+              <th class="text-center">Preço</th>
+              <th class="text-center">Quant.</th>
+              <th class="text-center" style="border-right: 1px dashed #333;">Total</th>
+            {% endif %}
+          {% endfor %}
+        </tr>
+      </thead>
+      <tbody>
+      {% for linha, mais_barato in linhas_mais_barato %}
+        {% if linha.0 == 'Subtotal' %}
+          <tr class="info" style="font-weight: bold;">
+        {% else %}
+          <tr>
+        {% endif %}
+          {% for item in linha %}
+            {% if forloop.first %}
+              <td>{{ item }}</td>
+            {% elif forloop.last %}
+            {% else %}
+              {% if item.3 == loja_mais_barata %}
+                <td class="text-center" style="border: 1px solid #f07746; background-color: #fbddd1;">{{ item.0 }}</td>
+                <td class="text-center" style="border: 1px solid #f07746; background-color: #fbddd1;">{{ item.1 }}</td>
+                <td class="text-center" style="border-right: 1px dashed #333; border: 1px solid #f07746; background-color: #fbddd1;">{{ item.2 }}</td>
+              {% else %}
+                <td class="text-center">{{ item.0 }}</td>
+                <td class="text-center">{{ item.1 }}</td>
+                <td class="text-center" style="border-right: 1px dashed #333;">{{ item.2 }}</td>
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        </tr>
+      {% endfor %}
+        <tr>
+          {% for item in cabecalho %}
+            {% if forloop.first %}
+              <th>   </th>
+            {% else %}
+              <td class="text-center">Preço</td>
+              <td class="text-center">Quant.</td>
+              <td class="text-center" style="border-right: 1px dashed #333;">Total</td>
+            {% endif %}
+          {% endfor %}
+        </tr>
+        <tr>
+          {% for item in cabecalho %}
+            {% if forloop.first %}
+              <th>{{ item }}</th>
+            {% else %}
+              <th class="text-center"></th>
+              <th class="text-center">{{ item }}</th>
+              <th class="text-center"></th>
+            {% endif %}
+          {% endfor %}
+        </tr>
+      </tbody>
+    </table>
+  {% else %}
+    <p class="alert alert-warning">Sem itens na lista.</p>
+  {% endif %}
+</div>
+{% endblock content %}

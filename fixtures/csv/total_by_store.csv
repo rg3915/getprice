@@ -1,0 +1,32 @@
+;Compre Aqui;Sorriso;Sol;Carrinho Cheio;Registro;Quantidade;Total;;;;;;;;
+arroz 5 Kg;9,43;7,15;17,47;27,99;15,89;2;R$ 14,30;Sorriso;;;;;;;
+feijão 1 Kg;9,49;4,79;9,2;1,15;3,68;4;R$ 4,60;Carrinho Cheio;;;;;;;
+milho 500 g;5,25;6,52;1,62;2,2;4,38;3;R$ 4,86;Sol;;;;;;;
+amendoim 500 g;1,81;0,54;0,64;0,19;0,06;2;R$ 0,12;Registro;;Supermercado;Produto;Preço;Quantidade;Total;
+grão de bico 500 g;2,81;3,17;2,33;1,72;3,64;3;R$ 5,16;Carrinho Cheio;;Compre Aqui;água mineral 1,5 l;R$ 1,29;8;R$ 10,32;
+água mineral 1,5 l;1,29;4,13;2,28;2,07;3,37;8;R$ 10,32;Compre Aqui;;Compre Aqui;refrigerante 350 ml;R$ 2,04;10;R$ 20,40;
+refrigerante 1,5 l;4,23;4,68;5,96;5,19;0,68;4;R$ 2,72;Registro;;Compre Aqui;cerveja 350 ml;R$ 2,35;20;R$ 47,00;
+refrigerante 350 ml;2,04;5,39;6,98;6,26;4,43;10;R$ 20,40;Compre Aqui;;Compre Aqui;absorvente 1 pcte;R$ 2,25;2;R$ 4,50;
+cerveja 350 ml;2,35;7,39;6,55;5,79;6,79;20;R$ 47,00;Compre Aqui;;Compre Aqui;pão integral 1 pcte;R$ 0,26;2;R$ 0,52;R$ 82,74
+suco integral 1 l;8,32;5,18;3,92;2,71;0,46;4;R$ 1,84;Registro;;Sorriso;arroz 5 Kg;R$ 7,15;2;R$ 14,30;
+creme dental 1 unid;8,34;7,71;9,89;6,73;3,68;3;R$ 11,04;Registro;;Sorriso;sabonete 1 pcte;R$ 0,69;5;R$ 3,45;
+sabonete 1 pcte;7,14;0,69;7,48;4,65;1,87;5;R$ 3,45;Sorriso;;Sorriso;desinfetante 1 l;R$ 0,23;1;R$ 0,23;R$ 17,98
+shampoo 350 ml;15,06;16,66;10,07;0,31;14,37;2;R$ 0,62;Carrinho Cheio;;Sol;milho 500 g;R$ 1,62;3;R$ 4,86;
+absorvente 1 pcte;2,25;5,87;5,43;5,48;5,12;2;R$ 4,50;Compre Aqui;;Sol;fralda M 1 pcte;R$ 0,21;2;R$ 0,42;
+fralda M 1 pcte;7,25;12,98;0,21;1,22;3,18;2;R$ 0,42;Sol;;Sol;sabão em pó 1 Kg;R$ 3,10;1;R$ 3,10;
+sabão em pó 1 Kg;19,48;16,31;3,1;6,96;7,19;1;R$ 3,10;Sol;;Sol;água sanitária 1 l;R$ 2,03;1;R$ 2,03;R$ 10,41
+sabão em barra 100 g;10,31;6,14;13,79;12,04;4,45;5;R$ 22,25;Registro;;Carrinho Cheio;feijão 1 Kg;R$ 1,15;4;R$ 4,60;
+detergente 500 ml;8,07;8,25;7,74;3,99;7,49;2;R$ 7,98;Carrinho Cheio;;Carrinho Cheio;grão de bico 500 g;R$ 1,72;3;R$ 5,16;
+desinfetante 1 l;7,15;0,23;5,86;1,28;1,88;1;R$ 0,23;Sorriso;;Carrinho Cheio;shampoo 350 ml;R$ 0,31;2;R$ 0,62;
+água sanitária 1 l;9,28;7,01;2,03;8,2;9,48;1;R$ 2,03;Sol;;Carrinho Cheio;detergente 500 ml;R$ 3,99;2;R$ 7,98;
+leite 1 l;4,48;7,17;4,34;3,97;8,07;3;R$ 11,91;Carrinho Cheio;;Carrinho Cheio;leite 1 l;R$ 3,97;3;R$ 11,91;
+pão integral 1 pcte;0,26;1,69;3,49;18,61;6,42;2;R$ 0,52;Compre Aqui;;Carrinho Cheio;chocolate em pó 500 g;R$ 1,76;1;R$ 1,76;R$ 32,03
+queijo mussarela 500 g;17,44;6,95;23,66;13,7;5,08;1;R$ 5,08;Registro;;Registro;amendoim 500 g;R$ 0,06;2;R$ 0,12;
+café em pó 1 Kg;4,29;7,15;4,12;4,15;3,55;1;R$ 3,55;Registro;;Registro;refrigerante 1,5 l;R$ 0,68;4;R$ 2,72;
+chocolate em pó 500 g;9,33;3,31;19,23;1,76;4,92;1;R$ 1,76;Carrinho Cheio;;Registro;suco integral 1 l;R$ 0,46;4;R$ 1,84;
+;=SOMA(B2:B26);;;;;;R$ 189,76;;;Registro;creme dental 1 unid;R$ 3,68;3;R$ 11,04;
+;;;;;;;;;;Registro;sabão em barra 100 g;R$ 4,45;5;R$ 22,25;
+;;;;;;;;;;Registro;queijo mussarela 500 g;R$ 5,08;1;R$ 5,08;
+;;;;;;;;;;Registro;café em pó 1 Kg;R$ 3,55;1;R$ 3,55;R$ 46,60
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;TOTAL GERAL;R$ 189,76

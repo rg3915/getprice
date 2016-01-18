@@ -1,0 +1,1772 @@
+[
+{
+  "pk": 1,
+  "fields": {
+    "category": "gr\u00e3os"
+  },
+  "model": "core.category"
+},
+{
+  "pk": 2,
+  "fields": {
+    "category": "bebidas"
+  },
+  "model": "core.category"
+},
+{
+  "pk": 3,
+  "fields": {
+    "category": "higiene"
+  },
+  "model": "core.category"
+},
+{
+  "pk": 4,
+  "fields": {
+    "category": "limpeza"
+  },
+  "model": "core.category"
+},
+{
+  "pk": 5,
+  "fields": {
+    "category": "matinal"
+  },
+  "model": "core.category"
+},
+{
+  "pk": 1,
+  "fields": {
+    "product": "arroz 5 Kg",
+    "category": 1
+  },
+  "model": "core.product"
+},
+{
+  "pk": 2,
+  "fields": {
+    "product": "feij\u00e3o 1 Kg",
+    "category": 1
+  },
+  "model": "core.product"
+},
+{
+  "pk": 3,
+  "fields": {
+    "product": "milho 500 g",
+    "category": 1
+  },
+  "model": "core.product"
+},
+{
+  "pk": 4,
+  "fields": {
+    "product": "amendoim 500 g",
+    "category": 1
+  },
+  "model": "core.product"
+},
+{
+  "pk": 5,
+  "fields": {
+    "product": "gr\u00e3o de bico 500 g",
+    "category": 1
+  },
+  "model": "core.product"
+},
+{
+  "pk": 6,
+  "fields": {
+    "product": "\u00e1gua mineral 1.5 l",
+    "category": 2
+  },
+  "model": "core.product"
+},
+{
+  "pk": 7,
+  "fields": {
+    "product": "refrigerante 1.5 l",
+    "category": 2
+  },
+  "model": "core.product"
+},
+{
+  "pk": 8,
+  "fields": {
+    "product": "refrigerante 350 ml",
+    "category": 2
+  },
+  "model": "core.product"
+},
+{
+  "pk": 9,
+  "fields": {
+    "product": "cerveja 350 ml",
+    "category": 2
+  },
+  "model": "core.product"
+},
+{
+  "pk": 10,
+  "fields": {
+    "product": "suco integral 1 l",
+    "category": 2
+  },
+  "model": "core.product"
+},
+{
+  "pk": 11,
+  "fields": {
+    "product": "creme dental 1 unid",
+    "category": 3
+  },
+  "model": "core.product"
+},
+{
+  "pk": 12,
+  "fields": {
+    "product": "sabonete 1 pcte",
+    "category": 3
+  },
+  "model": "core.product"
+},
+{
+  "pk": 13,
+  "fields": {
+    "product": "shampoo 350 ml",
+    "category": 3
+  },
+  "model": "core.product"
+},
+{
+  "pk": 14,
+  "fields": {
+    "product": "absorvente 1 pcte",
+    "category": 3
+  },
+  "model": "core.product"
+},
+{
+  "pk": 15,
+  "fields": {
+    "product": "fralda M 1 pcte",
+    "category": 3
+  },
+  "model": "core.product"
+},
+{
+  "pk": 16,
+  "fields": {
+    "product": "sab\u00e3o em p\u00f3 1 Kg",
+    "category": 4
+  },
+  "model": "core.product"
+},
+{
+  "pk": 17,
+  "fields": {
+    "product": "sab\u00e3o em barra 100 g",
+    "category": 4
+  },
+  "model": "core.product"
+},
+{
+  "pk": 18,
+  "fields": {
+    "product": "detergente 500 ml",
+    "category": 4
+  },
+  "model": "core.product"
+},
+{
+  "pk": 19,
+  "fields": {
+    "product": "desinfetante 1 l",
+    "category": 4
+  },
+  "model": "core.product"
+},
+{
+  "pk": 20,
+  "fields": {
+    "product": "\u00e1gua sanit\u00e1ria 1 l",
+    "category": 4
+  },
+  "model": "core.product"
+},
+{
+  "pk": 21,
+  "fields": {
+    "product": "leite 1 l",
+    "category": 5
+  },
+  "model": "core.product"
+},
+{
+  "pk": 22,
+  "fields": {
+    "product": "p\u00e3o integral 1 pcte",
+    "category": 5
+  },
+  "model": "core.product"
+},
+{
+  "pk": 23,
+  "fields": {
+    "product": "queijo mussarela 500 g",
+    "category": 5
+  },
+  "model": "core.product"
+},
+{
+  "pk": 24,
+  "fields": {
+    "product": "caf\u00e9 em p\u00f3 1 Kg",
+    "category": 5
+  },
+  "model": "core.product"
+},
+{
+  "pk": 25,
+  "fields": {
+    "product": "chocolate em p\u00f3 500 g",
+    "category": 5
+  },
+  "model": "core.product"
+},
+{
+  "pk": 1,
+  "fields": {
+    "store": "Azul"
+  },
+  "model": "core.store"
+},
+{
+  "pk": 2,
+  "fields": {
+    "store": "Noite"
+  },
+  "model": "core.store"
+},
+{
+  "pk": 3,
+  "fields": {
+    "store": "Sol"
+  },
+  "model": "core.store"
+},
+{
+  "pk": 4,
+  "fields": {
+    "store": "Star"
+  },
+  "model": "core.store"
+},
+{
+  "pk": 5,
+  "fields": {
+    "store": "Vila"
+  },
+  "model": "core.store"
+},
+{
+  "pk": 1126,
+  "fields": {
+    "store": 1,
+    "modified": "2015-12-06T04:53:54.475Z",
+    "price": "9.31",
+    "product": 1,
+    "quantity": 7,
+    "created": "2015-12-06T04:53:54.475Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1127,
+  "fields": {
+    "store": 2,
+    "modified": "2015-12-06T04:53:54.603Z",
+    "price": "4.53",
+    "product": 1,
+    "quantity": 7,
+    "created": "2015-12-06T04:53:54.603Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1128,
+  "fields": {
+    "store": 3,
+    "modified": "2015-12-06T04:53:54.713Z",
+    "price": "3.68",
+    "product": 1,
+    "quantity": 7,
+    "created": "2015-12-06T04:53:54.713Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1129,
+  "fields": {
+    "store": 4,
+    "modified": "2015-12-06T04:53:54.826Z",
+    "price": "8.37",
+    "product": 1,
+    "quantity": 7,
+    "created": "2015-12-06T04:53:54.826Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1130,
+  "fields": {
+    "store": 5,
+    "modified": "2015-12-06T04:53:54.936Z",
+    "price": "4.88",
+    "product": 1,
+    "quantity": 7,
+    "created": "2015-12-06T04:53:54.936Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1131,
+  "fields": {
+    "store": 1,
+    "modified": "2015-12-06T04:53:55.046Z",
+    "price": "4.44",
+    "product": 2,
+    "quantity": 3,
+    "created": "2015-12-06T04:53:55.046Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1132,
+  "fields": {
+    "store": 2,
+    "modified": "2015-12-06T04:53:55.159Z",
+    "price": "7.55",
+    "product": 2,
+    "quantity": 3,
+    "created": "2015-12-06T04:53:55.159Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1133,
+  "fields": {
+    "store": 3,
+    "modified": "2015-12-06T04:53:55.293Z",
+    "price": "3.97",
+    "product": 2,
+    "quantity": 3,
+    "created": "2015-12-06T04:53:55.293Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1134,
+  "fields": {
+    "store": 4,
+    "modified": "2015-12-06T04:53:55.425Z",
+    "price": "9.23",
+    "product": 2,
+    "quantity": 3,
+    "created": "2015-12-06T04:53:55.425Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1135,
+  "fields": {
+    "store": 5,
+    "modified": "2015-12-06T04:53:55.537Z",
+    "price": "8.51",
+    "product": 2,
+    "quantity": 3,
+    "created": "2015-12-06T04:53:55.537Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1136,
+  "fields": {
+    "store": 1,
+    "modified": "2015-12-06T04:53:55.648Z",
+    "price": "2.79",
+    "product": 3,
+    "quantity": 1,
+    "created": "2015-12-06T04:53:55.648Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1137,
+  "fields": {
+    "store": 2,
+    "modified": "2015-12-06T04:53:55.759Z",
+    "price": "8.46",
+    "product": 3,
+    "quantity": 1,
+    "created": "2015-12-06T04:53:55.759Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1138,
+  "fields": {
+    "store": 3,
+    "modified": "2015-12-06T04:53:55.870Z",
+    "price": "7.16",
+    "product": 3,
+    "quantity": 1,
+    "created": "2015-12-06T04:53:55.870Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1139,
+  "fields": {
+    "store": 4,
+    "modified": "2015-12-06T04:53:55.994Z",
+    "price": "8.89",
+    "product": 3,
+    "quantity": 1,
+    "created": "2015-12-06T04:53:55.993Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1140,
+  "fields": {
+    "store": 5,
+    "modified": "2015-12-06T04:53:56.117Z",
+    "price": "6.26",
+    "product": 3,
+    "quantity": 1,
+    "created": "2015-12-06T04:53:56.117Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1141,
+  "fields": {
+    "store": 1,
+    "modified": "2015-12-06T04:53:56.237Z",
+    "price": "6.33",
+    "product": 4,
+    "quantity": 7,
+    "created": "2015-12-06T04:53:56.237Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1142,
+  "fields": {
+    "store": 2,
+    "modified": "2015-12-06T04:53:56.360Z",
+    "price": "5.65",
+    "product": 4,
+    "quantity": 7,
+    "created": "2015-12-06T04:53:56.360Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1143,
+  "fields": {
+    "store": 3,
+    "modified": "2015-12-06T04:53:56.481Z",
+    "price": "3.22",
+    "product": 4,
+    "quantity": 7,
+    "created": "2015-12-06T04:53:56.481Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1144,
+  "fields": {
+    "store": 4,
+    "modified": "2015-12-06T04:53:56.594Z",
+    "price": "8.72",
+    "product": 4,
+    "quantity": 7,
+    "created": "2015-12-06T04:53:56.594Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1145,
+  "fields": {
+    "store": 5,
+    "modified": "2015-12-06T04:53:56.706Z",
+    "price": "5.68",
+    "product": 4,
+    "quantity": 7,
+    "created": "2015-12-06T04:53:56.705Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1146,
+  "fields": {
+    "store": 1,
+    "modified": "2015-12-06T04:53:56.815Z",
+    "price": "7.28",
+    "product": 5,
+    "quantity": 9,
+    "created": "2015-12-06T04:53:56.815Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1147,
+  "fields": {
+    "store": 2,
+    "modified": "2015-12-06T04:53:56.928Z",
+    "price": "1.55",
+    "product": 5,
+    "quantity": 9,
+    "created": "2015-12-06T04:53:56.928Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1148,
+  "fields": {
+    "store": 3,
+    "modified": "2015-12-06T04:53:57.038Z",
+    "price": "4.38",
+    "product": 5,
+    "quantity": 9,
+    "created": "2015-12-06T04:53:57.038Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1149,
+  "fields": {
+    "store": 4,
+    "modified": "2015-12-06T04:53:57.149Z",
+    "price": "5.57",
+    "product": 5,
+    "quantity": 9,
+    "created": "2015-12-06T04:53:57.149Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1150,
+  "fields": {
+    "store": 5,
+    "modified": "2015-12-06T04:53:57.327Z",
+    "price": "3.87",
+    "product": 5,
+    "quantity": 9,
+    "created": "2015-12-06T04:53:57.327Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1151,
+  "fields": {
+    "store": 1,
+    "modified": "2015-12-06T04:53:57.562Z",
+    "price": "4.63",
+    "product": 6,
+    "quantity": 6,
+    "created": "2015-12-06T04:53:57.562Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1152,
+  "fields": {
+    "store": 2,
+    "modified": "2015-12-06T04:53:57.673Z",
+    "price": "8.92",
+    "product": 6,
+    "quantity": 6,
+    "created": "2015-12-06T04:53:57.673Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1153,
+  "fields": {
+    "store": 3,
+    "modified": "2015-12-06T04:53:57.828Z",
+    "price": "1.63",
+    "product": 6,
+    "quantity": 6,
+    "created": "2015-12-06T04:53:57.828Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1154,
+  "fields": {
+    "store": 4,
+    "modified": "2015-12-06T04:53:57.950Z",
+    "price": "2.48",
+    "product": 6,
+    "quantity": 6,
+    "created": "2015-12-06T04:53:57.950Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1155,
+  "fields": {
+    "store": 5,
+    "modified": "2015-12-06T04:53:58.097Z",
+    "price": "1.13",
+    "product": 6,
+    "quantity": 6,
+    "created": "2015-12-06T04:53:58.097Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1156,
+  "fields": {
+    "store": 1,
+    "modified": "2015-12-06T04:53:58.218Z",
+    "price": "5.78",
+    "product": 7,
+    "quantity": 4,
+    "created": "2015-12-06T04:53:58.218Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1157,
+  "fields": {
+    "store": 2,
+    "modified": "2015-12-06T04:53:58.339Z",
+    "price": "1.12",
+    "product": 7,
+    "quantity": 4,
+    "created": "2015-12-06T04:53:58.339Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1158,
+  "fields": {
+    "store": 3,
+    "modified": "2015-12-06T04:53:58.506Z",
+    "price": "3.41",
+    "product": 7,
+    "quantity": 4,
+    "created": "2015-12-06T04:53:58.506Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1159,
+  "fields": {
+    "store": 4,
+    "modified": "2015-12-06T04:53:58.707Z",
+    "price": "5.32",
+    "product": 7,
+    "quantity": 4,
+    "created": "2015-12-06T04:53:58.707Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1160,
+  "fields": {
+    "store": 5,
+    "modified": "2015-12-06T04:53:58.841Z",
+    "price": "4.41",
+    "product": 7,
+    "quantity": 4,
+    "created": "2015-12-06T04:53:58.841Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1161,
+  "fields": {
+    "store": 1,
+    "modified": "2015-12-06T04:53:59.007Z",
+    "price": "4.66",
+    "product": 8,
+    "quantity": 1,
+    "created": "2015-12-06T04:53:59.007Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1162,
+  "fields": {
+    "store": 2,
+    "modified": "2015-12-06T04:53:59.163Z",
+    "price": "2.55",
+    "product": 8,
+    "quantity": 1,
+    "created": "2015-12-06T04:53:59.162Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1163,
+  "fields": {
+    "store": 3,
+    "modified": "2015-12-06T04:53:59.296Z",
+    "price": "3.33",
+    "product": 8,
+    "quantity": 1,
+    "created": "2015-12-06T04:53:59.296Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1164,
+  "fields": {
+    "store": 4,
+    "modified": "2015-12-06T04:53:59.440Z",
+    "price": "6.94",
+    "product": 8,
+    "quantity": 1,
+    "created": "2015-12-06T04:53:59.440Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1165,
+  "fields": {
+    "store": 5,
+    "modified": "2015-12-06T04:53:59.584Z",
+    "price": "3.71",
+    "product": 8,
+    "quantity": 1,
+    "created": "2015-12-06T04:53:59.584Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1166,
+  "fields": {
+    "store": 1,
+    "modified": "2015-12-06T04:53:59.720Z",
+    "price": "7.93",
+    "product": 9,
+    "quantity": 5,
+    "created": "2015-12-06T04:53:59.720Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1167,
+  "fields": {
+    "store": 2,
+    "modified": "2015-12-06T04:53:59.876Z",
+    "price": "6.53",
+    "product": 9,
+    "quantity": 5,
+    "created": "2015-12-06T04:53:59.876Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1168,
+  "fields": {
+    "store": 3,
+    "modified": "2015-12-06T04:54:00.010Z",
+    "price": "6.79",
+    "product": 9,
+    "quantity": 5,
+    "created": "2015-12-06T04:54:00.010Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1169,
+  "fields": {
+    "store": 4,
+    "modified": "2015-12-06T04:54:00.152Z",
+    "price": "6.21",
+    "product": 9,
+    "quantity": 5,
+    "created": "2015-12-06T04:54:00.152Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1170,
+  "fields": {
+    "store": 5,
+    "modified": "2015-12-06T04:54:00.298Z",
+    "price": "9.86",
+    "product": 9,
+    "quantity": 5,
+    "created": "2015-12-06T04:54:00.298Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1171,
+  "fields": {
+    "store": 1,
+    "modified": "2015-12-06T04:54:00.442Z",
+    "price": "7.42",
+    "product": 10,
+    "quantity": 1,
+    "created": "2015-12-06T04:54:00.442Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1172,
+  "fields": {
+    "store": 2,
+    "modified": "2015-12-06T04:54:00.587Z",
+    "price": "8.55",
+    "product": 10,
+    "quantity": 1,
+    "created": "2015-12-06T04:54:00.587Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1173,
+  "fields": {
+    "store": 3,
+    "modified": "2015-12-06T04:54:00.763Z",
+    "price": "7.62",
+    "product": 10,
+    "quantity": 1,
+    "created": "2015-12-06T04:54:00.763Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1174,
+  "fields": {
+    "store": 4,
+    "modified": "2015-12-06T04:54:00.887Z",
+    "price": "8.84",
+    "product": 10,
+    "quantity": 1,
+    "created": "2015-12-06T04:54:00.887Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1175,
+  "fields": {
+    "store": 5,
+    "modified": "2015-12-06T04:54:01.008Z",
+    "price": "2.86",
+    "product": 10,
+    "quantity": 1,
+    "created": "2015-12-06T04:54:01.008Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1176,
+  "fields": {
+    "store": 1,
+    "modified": "2015-12-06T04:54:01.142Z",
+    "price": "7.79",
+    "product": 11,
+    "quantity": 9,
+    "created": "2015-12-06T04:54:01.142Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1177,
+  "fields": {
+    "store": 2,
+    "modified": "2015-12-06T04:54:01.263Z",
+    "price": "6.34",
+    "product": 11,
+    "quantity": 9,
+    "created": "2015-12-06T04:54:01.263Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1178,
+  "fields": {
+    "store": 3,
+    "modified": "2015-12-06T04:54:01.397Z",
+    "price": "4.16",
+    "product": 11,
+    "quantity": 9,
+    "created": "2015-12-06T04:54:01.397Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1179,
+  "fields": {
+    "store": 4,
+    "modified": "2015-12-06T04:54:01.534Z",
+    "price": "8.59",
+    "product": 11,
+    "quantity": 9,
+    "created": "2015-12-06T04:54:01.534Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1180,
+  "fields": {
+    "store": 5,
+    "modified": "2015-12-06T04:54:01.671Z",
+    "price": "1.25",
+    "product": 11,
+    "quantity": 9,
+    "created": "2015-12-06T04:54:01.671Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1181,
+  "fields": {
+    "store": 1,
+    "modified": "2015-12-06T04:54:01.843Z",
+    "price": "8.49",
+    "product": 12,
+    "quantity": 7,
+    "created": "2015-12-06T04:54:01.843Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1182,
+  "fields": {
+    "store": 2,
+    "modified": "2015-12-06T04:54:01.966Z",
+    "price": "7.65",
+    "product": 12,
+    "quantity": 7,
+    "created": "2015-12-06T04:54:01.966Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1183,
+  "fields": {
+    "store": 3,
+    "modified": "2015-12-06T04:54:02.103Z",
+    "price": "3.99",
+    "product": 12,
+    "quantity": 7,
+    "created": "2015-12-06T04:54:02.103Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1184,
+  "fields": {
+    "store": 4,
+    "modified": "2015-12-06T04:54:02.256Z",
+    "price": "7.62",
+    "product": 12,
+    "quantity": 7,
+    "created": "2015-12-06T04:54:02.256Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1185,
+  "fields": {
+    "store": 5,
+    "modified": "2015-12-06T04:54:02.401Z",
+    "price": "6.59",
+    "product": 12,
+    "quantity": 7,
+    "created": "2015-12-06T04:54:02.401Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1186,
+  "fields": {
+    "store": 1,
+    "modified": "2015-12-06T04:54:02.545Z",
+    "price": "4.42",
+    "product": 13,
+    "quantity": 3,
+    "created": "2015-12-06T04:54:02.545Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1187,
+  "fields": {
+    "store": 2,
+    "modified": "2015-12-06T04:54:02.688Z",
+    "price": "6.53",
+    "product": 13,
+    "quantity": 3,
+    "created": "2015-12-06T04:54:02.688Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1188,
+  "fields": {
+    "store": 3,
+    "modified": "2015-12-06T04:54:02.832Z",
+    "price": "8.69",
+    "product": 13,
+    "quantity": 3,
+    "created": "2015-12-06T04:54:02.832Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1189,
+  "fields": {
+    "store": 4,
+    "modified": "2015-12-06T04:54:02.966Z",
+    "price": "9.75",
+    "product": 13,
+    "quantity": 3,
+    "created": "2015-12-06T04:54:02.966Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1190,
+  "fields": {
+    "store": 5,
+    "modified": "2015-12-06T04:54:03.101Z",
+    "price": "2.84",
+    "product": 13,
+    "quantity": 3,
+    "created": "2015-12-06T04:54:03.101Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1191,
+  "fields": {
+    "store": 1,
+    "modified": "2015-12-06T04:54:03.246Z",
+    "price": "4.17",
+    "product": 14,
+    "quantity": 5,
+    "created": "2015-12-06T04:54:03.246Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1192,
+  "fields": {
+    "store": 2,
+    "modified": "2015-12-06T04:54:03.378Z",
+    "price": "7.38",
+    "product": 14,
+    "quantity": 5,
+    "created": "2015-12-06T04:54:03.378Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1193,
+  "fields": {
+    "store": 3,
+    "modified": "2015-12-06T04:54:03.536Z",
+    "price": "5.18",
+    "product": 14,
+    "quantity": 5,
+    "created": "2015-12-06T04:54:03.536Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1194,
+  "fields": {
+    "store": 4,
+    "modified": "2015-12-06T04:54:03.668Z",
+    "price": "2.37",
+    "product": 14,
+    "quantity": 5,
+    "created": "2015-12-06T04:54:03.668Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1195,
+  "fields": {
+    "store": 5,
+    "modified": "2015-12-06T04:54:03.814Z",
+    "price": "9.19",
+    "product": 14,
+    "quantity": 5,
+    "created": "2015-12-06T04:54:03.814Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1196,
+  "fields": {
+    "store": 1,
+    "modified": "2015-12-06T04:54:03.956Z",
+    "price": "6.88",
+    "product": 15,
+    "quantity": 5,
+    "created": "2015-12-06T04:54:03.956Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1197,
+  "fields": {
+    "store": 2,
+    "modified": "2015-12-06T04:54:04.103Z",
+    "price": "6.86",
+    "product": 15,
+    "quantity": 5,
+    "created": "2015-12-06T04:54:04.103Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1198,
+  "fields": {
+    "store": 3,
+    "modified": "2015-12-06T04:54:04.291Z",
+    "price": "7.85",
+    "product": 15,
+    "quantity": 5,
+    "created": "2015-12-06T04:54:04.291Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1199,
+  "fields": {
+    "store": 4,
+    "modified": "2015-12-06T04:54:04.414Z",
+    "price": "3.87",
+    "product": 15,
+    "quantity": 5,
+    "created": "2015-12-06T04:54:04.414Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1200,
+  "fields": {
+    "store": 5,
+    "modified": "2015-12-06T04:54:04.557Z",
+    "price": "9.86",
+    "product": 15,
+    "quantity": 5,
+    "created": "2015-12-06T04:54:04.557Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1201,
+  "fields": {
+    "store": 1,
+    "modified": "2015-12-06T04:54:04.779Z",
+    "price": "9.46",
+    "product": 16,
+    "quantity": 7,
+    "created": "2015-12-06T04:54:04.779Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1202,
+  "fields": {
+    "store": 2,
+    "modified": "2015-12-06T04:54:04.903Z",
+    "price": "1.63",
+    "product": 16,
+    "quantity": 7,
+    "created": "2015-12-06T04:54:04.903Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1203,
+  "fields": {
+    "store": 3,
+    "modified": "2015-12-06T04:54:05.060Z",
+    "price": "6.32",
+    "product": 16,
+    "quantity": 7,
+    "created": "2015-12-06T04:54:05.060Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1204,
+  "fields": {
+    "store": 4,
+    "modified": "2015-12-06T04:54:05.203Z",
+    "price": "4.96",
+    "product": 16,
+    "quantity": 7,
+    "created": "2015-12-06T04:54:05.203Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1205,
+  "fields": {
+    "store": 5,
+    "modified": "2015-12-06T04:54:05.360Z",
+    "price": "2.22",
+    "product": 16,
+    "quantity": 7,
+    "created": "2015-12-06T04:54:05.360Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1206,
+  "fields": {
+    "store": 1,
+    "modified": "2015-12-06T04:54:05.493Z",
+    "price": "3.89",
+    "product": 17,
+    "quantity": 1,
+    "created": "2015-12-06T04:54:05.493Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1207,
+  "fields": {
+    "store": 2,
+    "modified": "2015-12-06T04:54:05.649Z",
+    "price": "6.39",
+    "product": 17,
+    "quantity": 1,
+    "created": "2015-12-06T04:54:05.649Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1208,
+  "fields": {
+    "store": 3,
+    "modified": "2015-12-06T04:54:05.824Z",
+    "price": "5.11",
+    "product": 17,
+    "quantity": 1,
+    "created": "2015-12-06T04:54:05.824Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1209,
+  "fields": {
+    "store": 4,
+    "modified": "2015-12-06T04:54:05.959Z",
+    "price": "6.99",
+    "product": 17,
+    "quantity": 1,
+    "created": "2015-12-06T04:54:05.959Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1210,
+  "fields": {
+    "store": 5,
+    "modified": "2015-12-06T04:54:06.102Z",
+    "price": "8.97",
+    "product": 17,
+    "quantity": 1,
+    "created": "2015-12-06T04:54:06.102Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1211,
+  "fields": {
+    "store": 1,
+    "modified": "2015-12-06T04:54:06.247Z",
+    "price": "7.29",
+    "product": 18,
+    "quantity": 9,
+    "created": "2015-12-06T04:54:06.247Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1212,
+  "fields": {
+    "store": 2,
+    "modified": "2015-12-06T04:54:06.393Z",
+    "price": "4.32",
+    "product": 18,
+    "quantity": 9,
+    "created": "2015-12-06T04:54:06.392Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1213,
+  "fields": {
+    "store": 3,
+    "modified": "2015-12-06T04:54:06.526Z",
+    "price": "6.66",
+    "product": 18,
+    "quantity": 9,
+    "created": "2015-12-06T04:54:06.526Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1214,
+  "fields": {
+    "store": 4,
+    "modified": "2015-12-06T04:54:06.702Z",
+    "price": "8.68",
+    "product": 18,
+    "quantity": 9,
+    "created": "2015-12-06T04:54:06.702Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1215,
+  "fields": {
+    "store": 5,
+    "modified": "2015-12-06T04:54:06.814Z",
+    "price": "3.63",
+    "product": 18,
+    "quantity": 9,
+    "created": "2015-12-06T04:54:06.814Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1216,
+  "fields": {
+    "store": 1,
+    "modified": "2015-12-06T04:54:06.926Z",
+    "price": "8.94",
+    "product": 19,
+    "quantity": 9,
+    "created": "2015-12-06T04:54:06.926Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1217,
+  "fields": {
+    "store": 2,
+    "modified": "2015-12-06T04:54:07.138Z",
+    "price": "4.75",
+    "product": 19,
+    "quantity": 9,
+    "created": "2015-12-06T04:54:07.138Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1218,
+  "fields": {
+    "store": 3,
+    "modified": "2015-12-06T04:54:07.315Z",
+    "price": "5.81",
+    "product": 19,
+    "quantity": 9,
+    "created": "2015-12-06T04:54:07.315Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1219,
+  "fields": {
+    "store": 4,
+    "modified": "2015-12-06T04:54:07.436Z",
+    "price": "8.94",
+    "product": 19,
+    "quantity": 9,
+    "created": "2015-12-06T04:54:07.436Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1220,
+  "fields": {
+    "store": 5,
+    "modified": "2015-12-06T04:54:07.582Z",
+    "price": "7.48",
+    "product": 19,
+    "quantity": 9,
+    "created": "2015-12-06T04:54:07.582Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1221,
+  "fields": {
+    "store": 1,
+    "modified": "2015-12-06T04:54:07.704Z",
+    "price": "9.13",
+    "product": 20,
+    "quantity": 4,
+    "created": "2015-12-06T04:54:07.704Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1222,
+  "fields": {
+    "store": 2,
+    "modified": "2015-12-06T04:54:07.917Z",
+    "price": "5.36",
+    "product": 20,
+    "quantity": 4,
+    "created": "2015-12-06T04:54:07.916Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1223,
+  "fields": {
+    "store": 3,
+    "modified": "2015-12-06T04:54:08.193Z",
+    "price": "6.88",
+    "product": 20,
+    "quantity": 4,
+    "created": "2015-12-06T04:54:08.193Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1224,
+  "fields": {
+    "store": 4,
+    "modified": "2015-12-06T04:54:08.381Z",
+    "price": "3.48",
+    "product": 20,
+    "quantity": 4,
+    "created": "2015-12-06T04:54:08.381Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1225,
+  "fields": {
+    "store": 5,
+    "modified": "2015-12-06T04:54:08.582Z",
+    "price": "1.65",
+    "product": 20,
+    "quantity": 4,
+    "created": "2015-12-06T04:54:08.582Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1226,
+  "fields": {
+    "store": 1,
+    "modified": "2015-12-06T04:54:08.748Z",
+    "price": "5.84",
+    "product": 21,
+    "quantity": 9,
+    "created": "2015-12-06T04:54:08.748Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1227,
+  "fields": {
+    "store": 2,
+    "modified": "2015-12-06T04:54:08.849Z",
+    "price": "5.21",
+    "product": 21,
+    "quantity": 9,
+    "created": "2015-12-06T04:54:08.849Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1228,
+  "fields": {
+    "store": 3,
+    "modified": "2015-12-06T04:54:08.993Z",
+    "price": "7.85",
+    "product": 21,
+    "quantity": 9,
+    "created": "2015-12-06T04:54:08.993Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1229,
+  "fields": {
+    "store": 4,
+    "modified": "2015-12-06T04:54:09.117Z",
+    "price": "1.87",
+    "product": 21,
+    "quantity": 9,
+    "created": "2015-12-06T04:54:09.117Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1230,
+  "fields": {
+    "store": 5,
+    "modified": "2015-12-06T04:54:09.306Z",
+    "price": "4.46",
+    "product": 21,
+    "quantity": 9,
+    "created": "2015-12-06T04:54:09.306Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1231,
+  "fields": {
+    "store": 1,
+    "modified": "2015-12-06T04:54:09.427Z",
+    "price": "7.63",
+    "product": 22,
+    "quantity": 8,
+    "created": "2015-12-06T04:54:09.427Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1232,
+  "fields": {
+    "store": 2,
+    "modified": "2015-12-06T04:54:09.584Z",
+    "price": "3.89",
+    "product": 22,
+    "quantity": 8,
+    "created": "2015-12-06T04:54:09.584Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1233,
+  "fields": {
+    "store": 3,
+    "modified": "2015-12-06T04:54:09.737Z",
+    "price": "1.92",
+    "product": 22,
+    "quantity": 8,
+    "created": "2015-12-06T04:54:09.737Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1234,
+  "fields": {
+    "store": 4,
+    "modified": "2015-12-06T04:54:09.871Z",
+    "price": "8.63",
+    "product": 22,
+    "quantity": 8,
+    "created": "2015-12-06T04:54:09.871Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1235,
+  "fields": {
+    "store": 5,
+    "modified": "2015-12-06T04:54:10.004Z",
+    "price": "6.24",
+    "product": 22,
+    "quantity": 8,
+    "created": "2015-12-06T04:54:10.004Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1236,
+  "fields": {
+    "store": 1,
+    "modified": "2015-12-06T04:54:10.150Z",
+    "price": "8.95",
+    "product": 23,
+    "quantity": 2,
+    "created": "2015-12-06T04:54:10.150Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1237,
+  "fields": {
+    "store": 2,
+    "modified": "2015-12-06T04:54:10.294Z",
+    "price": "8.16",
+    "product": 23,
+    "quantity": 2,
+    "created": "2015-12-06T04:54:10.294Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1238,
+  "fields": {
+    "store": 3,
+    "modified": "2015-12-06T04:54:10.427Z",
+    "price": "6.28",
+    "product": 23,
+    "quantity": 2,
+    "created": "2015-12-06T04:54:10.427Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1239,
+  "fields": {
+    "store": 4,
+    "modified": "2015-12-06T04:54:10.560Z",
+    "price": "2.74",
+    "product": 23,
+    "quantity": 2,
+    "created": "2015-12-06T04:54:10.560Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1240,
+  "fields": {
+    "store": 5,
+    "modified": "2015-12-06T04:54:10.770Z",
+    "price": "7.61",
+    "product": 23,
+    "quantity": 2,
+    "created": "2015-12-06T04:54:10.770Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1241,
+  "fields": {
+    "store": 1,
+    "modified": "2015-12-06T04:54:10.970Z",
+    "price": "3.43",
+    "product": 24,
+    "quantity": 5,
+    "created": "2015-12-06T04:54:10.970Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1242,
+  "fields": {
+    "store": 2,
+    "modified": "2015-12-06T04:54:11.104Z",
+    "price": "9.87",
+    "product": 24,
+    "quantity": 5,
+    "created": "2015-12-06T04:54:11.104Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1243,
+  "fields": {
+    "store": 3,
+    "modified": "2015-12-06T04:54:11.246Z",
+    "price": "8.45",
+    "product": 24,
+    "quantity": 5,
+    "created": "2015-12-06T04:54:11.246Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1244,
+  "fields": {
+    "store": 4,
+    "modified": "2015-12-06T04:54:11.626Z",
+    "price": "9.95",
+    "product": 24,
+    "quantity": 5,
+    "created": "2015-12-06T04:54:11.625Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1245,
+  "fields": {
+    "store": 5,
+    "modified": "2015-12-06T04:54:11.792Z",
+    "price": "4.34",
+    "product": 24,
+    "quantity": 5,
+    "created": "2015-12-06T04:54:11.792Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1246,
+  "fields": {
+    "store": 1,
+    "modified": "2015-12-06T04:54:11.936Z",
+    "price": "1.48",
+    "product": 25,
+    "quantity": 4,
+    "created": "2015-12-06T04:54:11.936Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1247,
+  "fields": {
+    "store": 2,
+    "modified": "2015-12-06T04:54:12.105Z",
+    "price": "2.73",
+    "product": 25,
+    "quantity": 4,
+    "created": "2015-12-06T04:54:12.105Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1248,
+  "fields": {
+    "store": 3,
+    "modified": "2015-12-06T04:54:12.247Z",
+    "price": "3.59",
+    "product": 25,
+    "quantity": 4,
+    "created": "2015-12-06T04:54:12.247Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1249,
+  "fields": {
+    "store": 4,
+    "modified": "2015-12-06T04:54:12.371Z",
+    "price": "7.23",
+    "product": 25,
+    "quantity": 4,
+    "created": "2015-12-06T04:54:12.371Z"
+  },
+  "model": "core.quotation"
+},
+{
+  "pk": 1250,
+  "fields": {
+    "store": 5,
+    "modified": "2015-12-06T04:54:12.482Z",
+    "price": "7.57",
+    "product": 25,
+    "quantity": 4,
+    "created": "2015-12-06T04:54:12.482Z"
+  },
+  "model": "core.quotation"
+}
+]
