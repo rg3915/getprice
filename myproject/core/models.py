@@ -58,3 +58,9 @@ class Quotation(TimeStampedModel):
         ordering = ['product__product']
         verbose_name = 'cotação'
         verbose_name_plural = 'cotações'
+
+
+class Exam(models.Model):
+    name = models.CharField(max_length=50)
+    exam = models.PositiveIntegerField()
+    score = models.PositiveIntegerField()

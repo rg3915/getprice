@@ -60,3 +60,6 @@ target/
 
 .venv/
 *.sqlite3
+
+.ipynb_checkpoints/
+*.ipynb

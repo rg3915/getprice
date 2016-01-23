@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="container">
+
+  <div class="page-header">
+
+  {% if transposed %}
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Exam</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for name, scores in transposed.items %}
+          <tr><td>name</td><td>scores.exam1</td><td>scores.exam2</td>
+              <td>scores.exam3</td><td>scores.exam4</td></tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  {% else %}
+    <p class="alert alert-warning">Sem itens na lista.</p>
+  {% endif %}
+</div>
+{% endblock content %}

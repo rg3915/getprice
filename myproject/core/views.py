@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.core.urlresolvers import reverse_lazy
 from django.db.models import F, Min, FloatField
 from django.views.generic import CreateView, ListView
-from myproject.core.models import Product, Quotation, Store
+from myproject.core.models import Product, Quotation, Store, Exam
 
 
 def home(request):
@@ -204,3 +204,17 @@ class QuotationCreate(CreateView):
     model = Quotation
     fields = '__all__'
     success_url = reverse_lazy('quotation_list')
+
+
+'''
+def pivottable(request):
+    exams = Exam.objects.all()
+    transposed = {}
+
+    for exam in exams:
+        transposed['name'] = exam.name
+    print(transposed)
+    # transposed.setdefault(exam['name'], {}).update({'exam%s' % exam['exam']: exam['score']})
+
+    return render(request, 'core/pivottable.html', {'transposed': transposed})
+'''
